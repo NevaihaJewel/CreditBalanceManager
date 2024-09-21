@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="nevai"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-20 06:55:36 PM"/>
+        <attribute name="created" value="bmV2YWk7REVTS1RPUC1NSjkxMTFCOzIwMjMtMTAtMTM7MDk6MjQ6NDEgQU07Mjc5Ng=="/>
+        <attribute name="edited" value="bmV2YWk7REVTS1RPUC1NSjkxMTFCOzIwMjQtMDktMjA7MDY6NTU6MzYgUE07MjsyOTMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="accountNumber" type="Integer" array="False" size=""/>
+            <declare name="beginningBalance, totalCharges, totalCredits, creditLimit" type="Real" array="False" size=""/>
+            <assign variable="accountNumber" expression="0"/>
+            <assign variable="balance" expression="0.0"/>
+            <assign variable="charges" expression="0.0"/>
+            <assign variable="credits" expression="0.0"/>
+            <assign variable="creditLimit" expression="0.0"/>
+            <while expression="true">
+                <output expression="&quot;Enter account number (or -1 to quit): &quot;" newline="True"/>
+                <input variable="accountNumber"/>
+                <if expression="accountNumber == -1">
+                    <then>
+                        <output expression="&quot;Exiting program...&quot;" newline="True"/>
+                        <breakpoint expression="" always="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Enter beginning balance: &quot;" newline="True"/>
+                        <input variable="balance"/>
+                        <output expression="&quot;Enter total charges: &quot;" newline="True"/>
+                        <input variable="charges"/>
+                        <output expression="&quot;Enter total credits: &quot;" newline="True"/>
+                        <input variable="credits"/>
+                        <output expression="&quot;Enter credit limit: &quot;" newline="True"/>
+                        <input variable="creditLimit"/>
+                        <declare name="newBalance" type="Real" array="False" size=""/>
+                        <assign variable="newBalance" expression="balance + charges - credits"/>
+                        <output expression="&quot;Account number: &quot; &amp;accountNumber" newline="True"/>
+                        <output expression="&quot;New balance is: &quot; &amp;newBalance" newline="True"/>
+                        <if expression="newBalance &gt; creditLimit">
+                            <then>
+                                <output expression="&quot;Credit limit exceeded!&quot;" newline="True"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
