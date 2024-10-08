@@ -23,23 +23,23 @@ Developed and designed a robust account management program, showcasing my skills
 
 <p align="center">
 The Flowchart: Establishing values and start loop<br/>
-<img src="https://i.imgur.com/DFkpJ6t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/77qyEKp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 The Flowchart: Input values and process logic<br/>
-<img src="https://i.imgur.com/0ITwMbv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YJEBmsC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 The Flowchart: Output and conclude looping<br/>
-<img src="https://i.imgur.com/0PbfSRI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/t1mf4ES.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 The Program: transformed flowchart into code<br/>
-<img src="https://i.imgur.com/X2f4PSK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7ywxhA0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 The Results: new credit limit, no new limit, and successful program end<br/>
-<img src="https://i.imgur.com/hqLbAnX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vdus4W4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 </p>
